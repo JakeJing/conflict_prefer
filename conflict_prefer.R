@@ -1,4 +1,7 @@
 library(conflicted)
+conflicts_prefer(purrr::set_names)
+conflicts_prefer(extraDistr::rmixnorm)
+conflicts_prefer(shiny::code)
 conflict_prefer("filter", "dplyr")
 conflict_prefer("select", "dplyr")
 conflict_prefer("mutate", "dplyr")
