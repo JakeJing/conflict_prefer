@@ -1,4 +1,5 @@
 library(conflicted)
+conflicts_prefer(brms::bernoulli)
 conflicts_prefer(reshape2::melt)
 conflicts_prefer(purrr::set_names)
 conflicts_prefer(extraDistr::rmixnorm)
