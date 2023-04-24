@@ -1,4 +1,5 @@
 library(conflicted)
+conflicts_prefer(ape::drop.tip)
 conflicts_prefer(base::setdiff)
 conflicts_prefer(base::intersect)
 conflicts_prefer(brms::bernoulli)
