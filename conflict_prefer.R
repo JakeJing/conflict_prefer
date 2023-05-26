@@ -1,4 +1,5 @@
 library(conflicted)
+conflicts_prefer(rlang::set_names)
 conflicts_prefer(igraph::decompose)
 conflicts_prefer(ape::degree)
 conflicts_prefer(ape::edges)
