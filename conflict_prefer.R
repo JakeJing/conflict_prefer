@@ -1,4 +1,5 @@
 library(conflicted)
+conflicts_prefer(viridis::unemp)
 conflicts_prefer(purrr::accumulate)
 conflicts_prefer(magrittr::and)
 conflicts_prefer(brms::ar)
